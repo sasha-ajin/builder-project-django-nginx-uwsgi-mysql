@@ -11,7 +11,7 @@ Firstly clone this repo
 git clone https://github.com/sasha-ajin/clean-project-django-nginx-uwsgi-mysql.git
 ```
 
-After that with super-user permission start one 
+After that with super-user permission start **collect_mac.sh** 
 ```
 sudo sh collect_mac.sh 
 ```
