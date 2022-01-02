@@ -33,4 +33,4 @@ sudo chmod -R +rwx $project_path/
 chmod +rwx Desktop/
 sudo nginx -s reload 
 uwsgi --ini deploy/uWSGI/myapp.ini
-rm collect.sh
+rm collect_mac.sh
