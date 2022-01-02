@@ -30,7 +30,7 @@ sed -i "" "s~projectname~$project_name~g" $project_path/deploy/uWSGI/myapp.ini
 rm -r /usr/local/etc/nginx/sites-enabled/*
 sudo ln -s $project_path/deploy/nginx/myapp.conf /usr/local/etc/nginx/sites-enabled/
 sudo chmod -R +rwx $project_path/ 
-chmod +rwx Desktop/
+sudo chmod +rwx ~/Desktop/
 sudo nginx -s reload 
 uwsgi --ini deploy/uWSGI/myapp.ini
 rm collect_mac.sh
