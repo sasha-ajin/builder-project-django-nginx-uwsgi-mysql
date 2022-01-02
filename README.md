@@ -1,6 +1,6 @@
 # What is it?
 
-Creating a lot of Django projects,I noticed, that creating Nginx server, connecting uWSGI web-server, virtual environment setting and other typical doings for assembly the django-project are so similar and easy-automated.That was motivation to create bash-script, which is going to collect empty django project in a few seconds with 2 commands in terminal
+Creating a lot of Django projects,I noticed, that creating Nginx, connecting uWSGI web-server, virtual environment setting and other typical doings for assembly the django-project are so similar and easy-automated.That was motivation to create bash-script, which is going to collect empty django project in a few seconds with 2 commands in terminal
 
 # Installation
 
