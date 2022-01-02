@@ -4,7 +4,7 @@ Creating a lot of Django projects,I noticed, that creating Nginx, connecting uWS
 
 # Installation
 
-Before installation you should have python installed on your machine, which should be available on **python3** command in bash,and nginx server,which you should start before installation.Make sure you have the same path to nginx folder as in **collect_mac.sh**
+Before installation you should have python installed on your machine, which should be available on **python3** command in bash,and nginx server,which you should start before installation.Make sure you have the same path to **nginx** folder as in **collect_mac.sh**
 
 Firstly clone this repo
 ```
