@@ -6,7 +6,6 @@ env_name=""
 # Inputting
 read -p "Project name: " project_name
 read -p "Environment name: " env_name
-read -p "Domain name(dev.source.com): " project_domain
 
 # Setting up virtual environment 
 python3 -m venv $env_name
