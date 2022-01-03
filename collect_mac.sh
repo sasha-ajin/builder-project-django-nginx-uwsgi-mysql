@@ -44,5 +44,5 @@ sudo chmod +rwx ~/Desktop/
 sudo nginx -s reload 
 uwsgi --ini deploy/uWSGI/myapp.ini
 
-# Clearing project
+# Clearing the project
 rm collect_mac.sh
