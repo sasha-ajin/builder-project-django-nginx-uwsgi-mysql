@@ -34,7 +34,7 @@ sed -i "" "s~projectpath~$project_path~g" $project_path/deploy/nginx/myapp.conf
 sed -i "" "s~projectpath~$project_path~g" $project_path/deploy/uWSGI/myapp.ini 
 sed -i "" "s~projectname~$project_name~g" $project_path/deploy/uWSGI/myapp.ini 
 
-# Setting Nginx
+# Configuring Nginx
 rm -r /usr/local/etc/nginx/sites-enabled/*
 sudo ln -s $project_path/deploy/nginx/myapp.conf /usr/local/etc/nginx/sites-enabled/
 sudo chmod -R ugo+rwx $project_path/ 
