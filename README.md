@@ -39,8 +39,6 @@ Installation of base requirements to virtual environment, creating Nginx and uWS
 ├── static
 │   └── ....
 ├── templates
-├── requirements.txt
-├── README.md
 └── manage.py
 ```
 
