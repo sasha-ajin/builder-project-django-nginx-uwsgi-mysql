@@ -44,4 +44,6 @@ sudo nginx -s reload
 uwsgi --ini deploy/uWSGI/myapp.ini
 
 # Clearing the project
+rm requirements.txt
+rm README.md
 rm collect_mac.sh
