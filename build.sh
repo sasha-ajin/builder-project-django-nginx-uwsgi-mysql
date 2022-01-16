@@ -29,21 +29,21 @@ project_path=`pwd`
 echo "django project was assembled"
 
 # Changing config files for web servers
-sed -i "" "s~projectpath~$project_path~g" $project_path/deploy/nginx/myapp.conf
-sed -i "" "s~projectpath~$project_path~g" $project_path/deploy/uWSGI/myapp.ini 
-sed -i "" "s~projectname~$project_name~g" $project_path/deploy/uWSGI/myapp.ini 
+sed -i "" "s~projectpath~$project_path~g" $project_path/servers/nginx/myapp.conf
+sed -i "" "s~projectpath~$project_path~g" $project_path/servers/uWSGI/myapp.ini 
+sed -i "" "s~projectname~$project_name~g" $project_path/servers/uWSGI/myapp.ini 
 
 # Configuring Nginx
 rm -r /usr/local/etc/nginx/sites-enabled/*
-sudo ln -s $project_path/deploy/nginx/myapp.conf /usr/local/etc/nginx/sites-enabled/
+sudo ln -s $project_path/servers/nginx/myapp.conf /usr/local/etc/nginx/sites-enabled/
 sudo chmod -R ugo+rwx $project_path/ 
 sudo chmod +rwx ~/Desktop/
 
 # Running project up
 sudo nginx -s reload 
-uwsgi --ini deploy/uWSGI/myapp.ini
+uwsgi --ini/servers/uWSGI/myapp.ini
 
 # Clearing the project
 rm requirements.txt
 rm README.md
-rm collect_mac.sh
+rm build.sh
