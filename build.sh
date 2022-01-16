@@ -41,7 +41,7 @@ sudo chmod +rwx ~/Desktop/
 
 # Running project up
 sudo nginx -s reload 
-uwsgi --ini/servers/uWSGI/myapp.ini
+uwsgi --ini servers/uWSGI/myapp.ini
 
 # Clearing the project
 rm requirements.txt
