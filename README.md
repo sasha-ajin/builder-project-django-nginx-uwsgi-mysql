@@ -21,7 +21,7 @@ Go to http://127.0.0.1/
 # What does the project include?
 
 ## Explanation
-Installation of base requirements to **virtual environment**, creating **Nginx** and **uWSGI** web servers, Nginx store static files, **uWSGI** store static files, starting program locally
+Installation of base requirements to **virtual environment**, creating **Nginx** and **uWSGI** web servers, Nginx store static files, **uWSGI** store dynamic files, starting program locally
 
 ## Structure
 ```
