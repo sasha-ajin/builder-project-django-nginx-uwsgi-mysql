@@ -1,0 +1,26 @@
+### Django ###
+/.idea
+*/__pycache__
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+venv_sz/
+
+### ReactJS ###
+
+*/node_modules
+*/.DS_Store
+*/.env.local
+*/.env.development.local
+*/.env.test.local
+*/.env.production.local
+*/.pnp
+*/.pnp.js
+*/coverage
+*/frontend_build
