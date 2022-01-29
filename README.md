@@ -39,6 +39,7 @@ Installation of base requirements to **virtual environment**, creating **Nginx**
 ├── static
 │   └── ....
 ├── templates
+├── .gitignore
 └── manage.py
 ```
 
