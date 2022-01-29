@@ -13,7 +13,6 @@ venv.bak/
 venv_sz/
 
 ### ReactJS ###
-
 */node_modules
 */.DS_Store
 */.env.local
@@ -24,3 +23,8 @@ venv_sz/
 */.pnp.js
 */coverage
 */frontend_build
+
+## Developvent ##
+.idea/
+.vscode/
+.dev/
