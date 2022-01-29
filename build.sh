@@ -11,7 +11,7 @@ read -p "Environment name: " env_name
 python3 -m venv $env_name
 echo "environment was created"
 source $env_name/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 echo "requirements was installed"
 
 # Django project create
